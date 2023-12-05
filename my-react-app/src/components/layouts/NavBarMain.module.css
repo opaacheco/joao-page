@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1em;
+  list-style: none;
+  align-items: center;
+}
+
+.lista li {
+  margin-right: 1.2em;
+}
+
+.lista a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.lista a:hover {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #ff0000;
+}
+
+.transform {
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
